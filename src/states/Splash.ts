@@ -18,6 +18,7 @@ class Splash extends Phaser.State {
     // load your assets
     //
     this.load.image("mushroom", "assets/images/mushroom2.png");
+    this.load.image("enemy", "assets/sprites/megaman_sprite.gif");
   }
 
   public create() {
